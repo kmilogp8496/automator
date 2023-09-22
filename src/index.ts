@@ -1,2 +1,5 @@
-export const one = 1
-export const two = 2
+import { createCommit } from './lib/createCommit'
+import { createPullRequest } from './lib/createPullRequest'
+
+await createCommit()
+// await createPullRequest({})
